@@ -1,5 +1,5 @@
 学习笔记
-# Week_01 学习笔记
+# Week_01 学习笔记
 ## 如何高效学习算法训练营课程
 职业训练：拆分知识点、刻意练习、反馈  
 五步刷题法
@@ -16,7 +16,7 @@ O(2^n): Exponential Growth 指数
 O(n!): Factorial 阶乘  
 
 ---
-## 数组 链表 跳表
+## 数组 链表 跳表
 * 数组
 
     数组（Array）是一种线性表数据结构。它用一组连续的内存空间，来存储一组具有相同类型的数据。  
@@ -37,7 +37,7 @@ O(n!): Factorial 阶乘
 * Queue：先入先出；添加、删除皆为 O(1)  
 * Deque: Double-End Queue 添加、删除皆为 O(1)
 
-## 课后作业
+## 作业
 
 ### 分析 Queue 和 Priority Queue 的源码
  
@@ -63,7 +63,7 @@ PriorityQueue是基于二叉堆形式实现的无界队列。队列中元素类�
 * 因为可以扩容add不会存在容器长度问题报异常，而remove和element仍然存在此问题
 * PriorityQueue是非线程安全的，新增、删除操作没有加锁操作
 
-### leetcode题
+### leetcode题
 | 题目 | 难度 | Related Topics |
 | :-----| :----: | :---- |
 | [删除排序数组中的重复项]([26]remove-duplicates-from-sorted-array.java)  | 简单 | 数组 双指针  |  
@@ -77,4 +77,5 @@ PriorityQueue是基于二叉堆形式实现的无界队列。队列中元素类�
 | [接雨水]([42]trapping-rain-water.java)  | 困难 | 栈 数组 双指针   |
 
 ## 总结
+
 理清思路，多次练习，直到掌握
