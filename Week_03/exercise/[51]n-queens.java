@@ -84,5 +84,16 @@ class Solution {
         return !colSet.contains(col) && !masterSet.contains(row - col) && !slaveSet.contains(row + col);
     }
 
+    private List<String> charToString(char[][] boardChar) {
+        List<String> board = new ArrayList<>();
+        for (int i = 0; i < boardChar.length; i++) {
+            StringBuilder temp = new StringBuilder();
+            for (int j = 0; j < boardChar.length; j++) {
+                temp.append(boardChar[i][j]);
+            }
+            board.add(temp.toString());
+        }
+        return board;
+    }
 }
 //leetcode submit region end(Prohibit modification and deletion)
